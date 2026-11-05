@@ -1,14 +1,14 @@
-# PUDDY SQUISH 1.0.1
+# PUDDY PRESENTS: SQUISHY 1.0.1
 
-PUDDY SQUISH compresses a file to a target size you name, in the browser. It is free, needs no account, and runs at https://squish.puddystudios.com.
+PUDDY PRESENTS: SQUISHY compresses a file to a target size you name, in the browser. It is free, needs no account, and runs at https://squishy.puddystudios.com.
 
 Release date: 2026-11-05.
 
 ## How it works
 
-- SQUISH has two modes. TO A SIZE looks for the closest fit under the target. MAX QUALITY is a conversion with no target.
+- SQUISHY has two modes. TO A SIZE looks for the closest fit under the target. MAX QUALITY is a conversion with no target.
 - Sizes are decimal: 1 MB is 1,000,000 bytes.
-- SQUISH installs as a web app. Its service worker keeps the page's own files in the browser's Cache Storage, and an image or SVG job with JPG, PNG, WEBP or SVG output loads no engine.
+- SQUISHY installs as a web app. Its service worker keeps the page's own files in the browser's Cache Storage, and an image or SVG job with JPG, PNG, WEBP or SVG output loads no engine.
 
 ## Formats
 
@@ -23,9 +23,9 @@ Release date: 2026-11-05.
 
 ## Privacy
 
-- The file is never uploaded. The work runs on the device, and the file stays in the browser tab. No call in SQUISH's code sends a file.
-- SQUISH's page files, app.js, index.html and sw.js, and the site script puddy-tools.js use no cookie, localStorage, sessionStorage or IndexedDB.
-- The service worker keeps SQUISH's own site files, from its own origin, in the browser's Cache Storage.
+- The file is never uploaded. The work runs on the device, and the file stays in the browser tab. No call in SQUISHY's code sends a file.
+- SQUISHY's page files, app.js, index.html and sw.js, and the site script puddy-tools.js use no cookie, localStorage, sessionStorage or IndexedDB.
+- The service worker keeps SQUISHY's own site files, from its own origin, in the browser's Cache Storage.
 - A GIF, video, audio or PDF job, and an image or SVG job with PDF output, fetches its engine from cdn.jsdelivr.net, which receives the request and never the file, as the table below gives it. An image or SVG job with JPG, PNG, WEBP or SVG output loads nothing.
 
 ## The engines
@@ -54,8 +54,8 @@ The declared licence is the one each package declares for itself, read from its 
 
 ## This repository
 
-This repository is SQUISH's public release record. SQUISH's source code is not part of it.
+This repository is SQUISHY's public release record. SQUISHY's source code is not part of it.
 
 ## Credits
 
-THE MASTER CUBE, PUDDY✵SQUISH, PUDDY✵MARKETING, Colton Dempsey 𓅇 ([@cubedivisiondev](https://github.com/cubedivisiondev))
+THE MASTER CUBE, PUDDY✵SQUISHY, PUDDY✵MARKETING, Colton Dempsey 𓅇 ([@cubedivisiondev](https://github.com/cubedivisiondev))

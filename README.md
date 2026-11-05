@@ -1,14 +1,14 @@
-# PUDDY SQUISH
+# PUDDY PRESENTS: SQUISHY - Compress to the File Size You Name
 
-PUDDY SQUISH compresses a file to a target size you name, in the browser. It is free and needs no account.
+PUDDY PRESENTS: SQUISHY - Compress to the File Size You Name. It compresses a file to a target size you name, in the browser. It is free and needs no account.
 
-This repository holds SQUISH's public release record: the release notes, the press release and the security contact. The tool runs at https://squish.puddystudios.com. SQUISH's source code is not part of this repository.
+This repository holds SQUISHY's public release record: the release notes, the press release and the security contact. The tool runs at https://squishy.puddystudios.com. SQUISHY's source code is not part of this repository.
 
 ## What it does
 
-- SQUISH has two modes. TO A SIZE looks for the closest fit under the target. MAX QUALITY is a conversion with no target.
+- SQUISHY has two modes. TO A SIZE looks for the closest fit under the target. MAX QUALITY is a conversion with no target.
 - Sizes are decimal: 1 MB is 1,000,000 bytes.
-- SQUISH installs as a web app. Its service worker keeps the page's own files in the browser's Cache Storage, and an image or SVG job with JPG, PNG, WEBP or SVG output loads no engine.
+- SQUISHY installs as a web app. Its service worker keeps the page's own files in the browser's Cache Storage, and an image or SVG job with JPG, PNG, WEBP or SVG output loads no engine.
 
 ## Formats
 
@@ -23,9 +23,9 @@ This repository holds SQUISH's public release record: the release notes, the pre
 
 ## Privacy
 
-- The file is never uploaded. The work runs on the device, and the file stays in the browser tab. No call in SQUISH's code sends a file.
-- SQUISH's page files, app.js, index.html and sw.js, and the site script puddy-tools.js use no cookie, localStorage, sessionStorage or IndexedDB.
-- The service worker keeps SQUISH's own site files, from its own origin, in the browser's Cache Storage.
+- The file is never uploaded. The work runs on the device, and the file stays in the browser tab. No call in SQUISHY's code sends a file.
+- SQUISHY's page files, app.js, index.html and sw.js, and the site script puddy-tools.js use no cookie, localStorage, sessionStorage or IndexedDB.
+- The service worker keeps SQUISHY's own site files, from its own origin, in the browser's Cache Storage.
 - At run time a GIF, video, audio or PDF job, or a job with PDF output, loads its engine from cdn.jsdelivr.net, as the table below gives it. An image or SVG job with JPG, PNG, WEBP or SVG output loads nothing.
 
 ## The engines
@@ -56,18 +56,18 @@ The declared licence is the one each package declares for itself, read from its 
 
 | file | what it holds |
 |---|---|
-| `README.md` | what SQUISH is, its formats, its privacy position, its engines and its limits |
+| `README.md` | what SQUISHY is, its formats, its privacy position, its engines and its limits |
 | `RELEASE_NOTES_1.0.1.md` | the notes of release 1.0.1 |
 | `PRESS_RELEASE_2026-11-05.md` | the press release of November 5, 2026 |
 | `SECURITY.md` | the security contact |
 
 ## Contact
 
-SQUISH is a tool by Puddy Studios, PUDDY Inc. (https://puddystudios.com).
+SQUISHY is a tool by Puddy Studios, PUDDY Inc. (https://puddystudios.com).
 
 - Press: hello@puddystudios.com
 - Security: see `SECURITY.md`
 
 ## Credits
 
-THE MASTER CUBE, PUDDY✵SQUISH, PUDDY✵MARKETING, Colton Dempsey 𓅇 ([@cubedivisiondev](https://github.com/cubedivisiondev))
+THE MASTER CUBE, PUDDY✵SQUISHY, PUDDY✵MARKETING, Colton Dempsey 𓅇 ([@cubedivisiondev](https://github.com/cubedivisiondev))
