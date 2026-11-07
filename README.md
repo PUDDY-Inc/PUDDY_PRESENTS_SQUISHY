@@ -20,13 +20,14 @@ This repository holds SQUISHY's public release record: the release notes, the pr
 | Audio | MP3, WAV, M4A, FLAC and more | MP3, M4A |
 | PDF | PDF | PDF, JPG, PNG, WEBP |
 | SVG | SVG | SVG, PNG, JPG, WEBP, PDF |
+| HEIC photos | HEIC, HEIF | JPG, PNG, PDF |
 
 ## Privacy
 
 - The file is never uploaded. The work runs on the device, and the file stays in the browser tab. No call in SQUISHY's code sends a file.
 - SQUISHY's page files, app.js, index.html and sw.js, and the site script puddy-tools.js use no cookie, localStorage, sessionStorage or IndexedDB.
 - The service worker keeps SQUISHY's own site files, from its own origin, in the browser's Cache Storage.
-- At run time a GIF, video, audio or PDF job, or a job with PDF output, loads its engine from cdn.jsdelivr.net, as the table below gives it. An image or SVG job with JPG, PNG, WEBP or SVG output loads nothing.
+- At run time a GIF, video, audio or PDF job, or a job with PDF output, loads its engine from cdn.jsdelivr.net, as the table below gives it. An image or SVG job with JPG, PNG, WEBP or SVG output loads nothing, and a HEIC job loads nothing from cdn.jsdelivr.net.
 
 ## The engines
 
@@ -47,7 +48,8 @@ The declared licence is the one each package declares for itself, read from its 
 - PDF to image takes the first 20 pages.
 - Video to GIF takes the first 30 seconds.
 - Large files are bounded by the device's memory.
-- HEIC and TIFF are not supported.
+- TIFF is not supported.
+- A HEIC photo needs a browser that reads HEIC itself or plays HEVC video; another browser says so.
 - An SVG that carries text, styles or scripts is returned unchanged, and the page says so when the target cannot be reached.
 - At a very small target a video is shortened to fit, and the result names the trim.
 - A GIF, video, audio or PDF job, and an image or SVG job with PDF output, needs a connection to fetch its engine.
@@ -58,6 +60,8 @@ The declared licence is the one each package declares for itself, read from its 
 |---|---|
 | `README.md` | what SQUISHY is, its formats, its privacy position, its engines and its limits |
 | `RELEASE_NOTES_1.0.1.md` | the notes of release 1.0.1 |
+| `RELEASE_NOTES_1.0.2.md` | the notes of release 1.0.2 |
+| `RELEASE_NOTES_1.1.0.md` | the notes of release 1.1.0 |
 | `PRESS_RELEASE_2026-11-05.md` | the press release of November 5, 2026 |
 | `SECURITY.md` | the security contact |
 
